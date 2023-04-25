@@ -81,26 +81,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'p2.wsgi.application'
 
-# Database
-# https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-
-#     }
-# }
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'OPTIONS': {
-#             'service': 'my_service',
-#             'passfile': '.my_pgpass',
-#         },
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -170,16 +150,10 @@ MEDIA_ROOT = BASE_DIR / 'uploads'
 MEDIA_URL = 'media/'
 
 CORS_ORIGIN_ALLOW_ALL = True
-# CORS_ALLOW_CREDENTIALS = True
-# CORS_ORIGIN_WHITELIST = [
-#     "http://localhost:8080",
-#     "http://127.0.0.1:9000"
-# ]
 
-
-AWS_ACCESS_KEY_ID = 'AKIAVDLTJVDAYWK2ZNVU'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'easychef'
+AWS_ACCESS_KEY_ID = ''
+AWS_SECRET_ACCESS_KEY = ''
+AWS_STORAGE_BUCKET_NAME = ''
 AWS_S3_SIGNATURE_NAME = 's3v4',
 AWS_S3_REGION_NAME = 'us-east-2'
 AWS_S3_FILE_OVERWRITE = False
