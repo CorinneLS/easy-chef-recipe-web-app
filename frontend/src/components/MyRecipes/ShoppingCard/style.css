@@ -1,0 +1,34 @@
+.fa-solid.fa-xmark, .fa-solid.fa-xmark:hover {
+  color: #6E3C1C;
+}
+
+.btn.closebtn:hover {
+  background-color: #A0602650;
+  border-color: #6E3C1C;
+}
+
+.btn.closebtn {
+  border-radius: 50%;
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  background-color: #ffffff80;
+}
+
+.card.infocard {
+  width: 313.59px;
+  height: 345px;
+  overflow: hidden;
+}
+
+.shopcard-img{
+  width: 100%;
+  height: 170px;
+}
+
+*{
+  font-size: 15px;
+}
+.card-width{
+  width: 230px;
+}

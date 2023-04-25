@@ -1,0 +1,20 @@
+.clicked{
+  color: white;
+  background-color: #6E3C1C;
+}
+
+.not-clicked{
+  background-color: white;
+  color: #6E3C1C;
+  border-color: #6E3C1C;
+}
+.not-clicked i{
+  color: #6E3C1C;
+  background-color: #6E3C1C00;
+}
+
+#fav-btn:hover{
+  color: #6E3C1C;
+  background-color: #e4e1de;
+  border-color: #6E3C1C;
+}
