@@ -1,4 +1,4 @@
-# Easy-chef - a recipe web app
+# Easy-chef - a recipe sharing web application
 UTM CSC309 group project | Winter 2023
 
 ## Tech Stack
