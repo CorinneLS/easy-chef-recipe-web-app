@@ -83,12 +83,7 @@ WSGI_APPLICATION = 'p2.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'databaserecipe',
-        'USER': 'postgres',
-        'PASSWORD': 'admin123',
-        'HOST': 'databaserecipe.cb2tqmlc4rfo.us-east-2.rds.amazonaws.com',
-        'PORT': '5432' 
+        'ENGINE': 'django.db.backends.postgresql'
     }
 }
 
